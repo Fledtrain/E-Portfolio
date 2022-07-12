@@ -21,6 +21,9 @@ span {
   text-align: center;
   line-height: 1.25;
 }
+h1 {
+  font-size: 36px;
+}
 p {
   line-height: 1.5;
   font-size: 16px;
@@ -40,6 +43,9 @@ li {
   margin: 0 auto;
 }
 
+.text--purple {
+  color: #42f59b;
+}
 /* 
 
 Navigation Bar
@@ -102,4 +108,34 @@ Main Body 1
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1500px;
+  text-align: center;
+}
+.about-me__picture--mask {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+  margin-bottom: 28px;
+}
+.about-me__picture {
+  width: 100%;
+  /* Improving my own Pic */
+  transform: scale(1.2);
+  padding-top: 12px;
+}
+.about-me__info--title {
+  margin-bottom: 16px;
+}
+.about-me__info--para {
+  font-size: 20px;
+  margin-bottom: 28px;
+ 
+}
+.about-me__link{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 0 16px;
 }
