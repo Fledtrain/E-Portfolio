@@ -21,6 +21,9 @@ span {
   text-align: center;
   line-height: 1.25;
 }
+html {
+  scroll-behavior: smooth;
+}
 h1 {
   font-size: 36px;
 }
@@ -30,6 +33,26 @@ p {
 }
 a {
   text-decoration: none;
+  position: relative;
+}
+.link__hover-effect:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  bottom: -3px;
+  right: 0;
+  transition: all 300ms ease;
+}
+.link__hover-effect:hover:after {
+  width: 100%;
+  left: 0;
+}
+.link__hover-effect--white::after {
+  background-color: white;
+}
+.link__hover-effect--black::after {
+  background-color: black;
 }
 li {
   list-style-type: none;
@@ -47,6 +70,7 @@ li {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 12px;
 }
 
 .text--purple {
@@ -71,6 +95,7 @@ nav {
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  padding: 0 12px;
 }
 .nav__link--list {
   display: flex;
@@ -283,17 +308,17 @@ Projects
   text-align: left;
   color: whitesmoke;
 }
-
 /* 
 
 Footer
 
 */
-
 footer {
   background-color: #242424;
 }
 .footer__logo {
+  display: flex;
+  justify-content: center;
 }
 .footer__logo--img {
   width: 70px;
@@ -334,8 +359,67 @@ footer {
   top: 30px;
   left: 30px;
   font-weight: 700;
+  opacity: 0;
+  transition: all 300ms ease;
 }
 .footer__anchor {
   margin-bottom: 20px;
   position: relative;
+}
+.footer__anchor:hover .footer__logo--popper {
+  transform: translateX(60px);
+  opacity: 1;
+}
+
+/* Small Phones,tablets,large Smartphones */
+@media (max-width: 768px) {
+  nav {
+    height: 68px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .about-me__info--para {
+    font-size: 18px;
+  }
+
+  .language {
+    width: calc(100% / 2);
+  }
+  .project__description--para {
+    font-size: 16px;
+  }
+  .project__description {
+    left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .nav__link:not(:last-child) {
+    display: none;
+  }
+  .project__description{
+    padding: 0;
+    left: 0;
+    width: 100%;
+
+  }
+  .project__description--para {
+    display: none;
+  }
+  .project__description--links{
+    display: flex;
+    justify-content: center;
+  }
+  .project__description--title{
+    font-size: 32px;
+    line-height: 1;
+    text-align: center;
+  }
+  .project__description--sub-title{
+    text-align: center;
+    margin: 12px 0;
+  }
 }
