@@ -28,6 +28,9 @@ p {
   line-height: 1.5;
   font-size: 16px;
 }
+a {
+  text-decoration: none;
+}
 li {
   list-style-type: none;
 }
@@ -75,7 +78,7 @@ nav {
 .nav__link--ancor {
   margin: 0 12px;
   color: #242424;
-  text-decoration: none;
+
   font-weight: 700;
 }
 .nav__link--ancor-primary {
@@ -148,7 +151,6 @@ Main Body 1
 .about-me__link {
   font-size: 20px;
   color: black;
-  text-decoration: none;
   padding: 0 16px;
 }
 .about-me__img--container {
@@ -210,12 +212,11 @@ Tech Stack
 Projects
 
 */
-.project{
-    margin-bottom: 135px;
-
+.project {
+  margin-bottom: 135px;
 }
-.project:last-child{
-    margin-bottom: 40px;
+.project:last-child {
+  margin-bottom: 40px;
 }
 .project__img {
   width: 100%;
@@ -274,7 +275,6 @@ Projects
 .project__description--link {
   font-size: 20px;
   margin-right: 16px;
-  text-decoration: none;
 }
 .project__description--title,
 .project__description--sub-title,
@@ -282,4 +282,60 @@ Projects
 .project__description--link {
   text-align: left;
   color: whitesmoke;
+}
+
+/* 
+
+Footer
+
+*/
+
+footer {
+  background-color: #242424;
+}
+.footer__logo {
+}
+.footer__logo--img {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__social--list {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 28px;
+}
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8% 0;
+}
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__social--link,
+.footer__copyright,
+.footer__logo--popper {
+  color: #fff;
+}
+.footer__logo--popper {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  left: 30px;
+  font-weight: 700;
+}
+.footer__anchor {
+  margin-bottom: 20px;
+  position: relative;
 }
