@@ -67,6 +67,8 @@ li {
 }
 .flex-1 {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 .container {
   padding: 50px 0;
@@ -123,7 +125,6 @@ nav {
 }
 .personal__logo {
   font-size: 24px;
-  color: #6030b1;
   margin: 0 12px;
   font-weight: bold;
 }
