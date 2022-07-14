@@ -3,6 +3,33 @@
 Header Page 
 
 */
+
+.button3{
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+  display: flex;
+}
+.button3:hover {
+  background-color: #4095c6;
+}
+@media all and (max-width: 30em) {
+  .button3 {
+    display: block;
+    margin: 0.2em auto;
+  }
+}
+
+/* Button testing
+ */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 * {
   font-family: "Lato", sans-serif;
@@ -10,6 +37,16 @@ Header Page
   margin: 0;
   box-sizing: border-box;
 }
+* {
+  transition: all 300ms ease;
+}
+.dark-theme {
+  background-color: black;
+}
+.dark-theme * {
+  color: white;
+}
+
 h1,
 h2,
 h3,
@@ -34,11 +71,10 @@ p {
 a {
   text-decoration: none;
   position: relative;
-  transition: opacity  300ms ease;
+  transition: opacity 300ms ease;
 }
-i:hover{
-    opacity: 0.7;
-
+i:hover {
+  opacity: 0.7;
 }
 .link__hover-effect:after {
   content: "";
@@ -227,20 +263,19 @@ End of Header Page & Nav Bar
   }
 }
 .wave {
-    display: inline-block;
+  display: inline-block;
   animation: animate-wave 500ms infinite ease-in-out;
 }
 @keyframes animate-wave {
-    0%{
-        transform: rotate(0);
-    }
-    50%{
-        transform: rotate(30deg);
-
-    }
-    100%{
-        transform: rotate(0);
-    }
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
 /* 
 
@@ -257,7 +292,6 @@ Tech Stack
   width: 100%;
   max-width: 100px;
   transition: all 300ms;
-
 }
 
 .language .language__img:hover {
@@ -284,7 +318,6 @@ Tech Stack
   transition: all 300ms;
   font-size: 20px;
   font-style: italic;
-  
 }
 .language:hover .language__name {
   transform: scale(1);
