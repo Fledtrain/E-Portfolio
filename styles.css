@@ -135,11 +135,7 @@ End of Header Page & Nav Bar
 
 */
 
-/* 
-
-Main Body 1
-
-*/
+/* Main Body 1 */
 
 #about-me {
   min-height: 100vh;
@@ -457,7 +453,7 @@ footer {
     padding-right: 30px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 380px) {
   .nav__link:not(:last-child) {
     display: none;
   }
