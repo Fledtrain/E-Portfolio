@@ -4,7 +4,7 @@ Header Page
 
 */
 
-.button3{
+.button{
   padding: 0.3em 1.2em;
   margin: 0 0.3em 0.3em 0;
   border-radius: 2em;
@@ -15,14 +15,14 @@ Header Page
   color: black;
   background-color: #4eb5f1;
   text-align: center;
-  transition: all 0.2s;
+  transition: all  0.5s ease;
   display: flex;
 }
-.button3:hover {
-  background-color: #4095c6;
+.button:hover {
+  background-color: #97d3f5;
 }
 @media all and (max-width: 30em) {
-  .button3 {
+  .button {
     display: block;
     margin: 0.2em auto;
   }
