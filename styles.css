@@ -3,13 +3,13 @@
 Header Page 
 
 */
-.btn{
+.btn {
   display: flex;
   flex-direction: column;
   position: relative;
   margin-top: 48px;
 }
-.button{
+.button {
   padding: 0.3em 1.2em;
   margin: 0 0.3em 0.3em 0;
   border-radius: 2em;
@@ -20,7 +20,7 @@ Header Page
   color: black;
   background-color: #5030b1;
   text-align: center;
-  transition: all  0.5s ease;
+  transition: all 0.5s ease;
   display: flex;
   justify-content: center;
 }
@@ -444,6 +444,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 12px;
 }
 .footer__social--link,
 .footer__copyright,
@@ -488,7 +489,8 @@ footer {
   .project__description--para {
     font-size: 12px;
   }
-  .project__description--links, .project__description--title{
+  .project__description--links,
+  .project__description--title {
     font-size: 18px;
   }
   .project__description {
@@ -498,8 +500,7 @@ footer {
 }
 
 @media (max-width: 380px) {
-  .project:hover{
-    
+  .project:hover {
   }
   .nav__link:not(:last-child) {
     display: none;
