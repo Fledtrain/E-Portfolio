@@ -6,8 +6,8 @@ Header Page
 .btn{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  margin-top: 50px;
+  position: relative;
+  margin-top: 48px;
 }
 .button{
   padding: 0.3em 1.2em;
@@ -500,7 +500,6 @@ footer {
 @media (max-width: 380px) {
   .project:hover{
     
-
   }
   .nav__link:not(:last-child) {
     display: none;
