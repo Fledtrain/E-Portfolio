@@ -7,6 +7,7 @@ Header Page
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 .button{
   padding: 0.3em 1.2em;
