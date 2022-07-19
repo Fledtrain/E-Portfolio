@@ -485,13 +485,17 @@ footer {
     width: calc(100% / 2);
   }
   .project__description--para {
-    font-size: 16px;
+    font-size: 12px;
+  }
+  .project__description--links, .project__description--title{
+    font-size: 18px;
   }
   .project__description {
     left: 30px;
     padding-right: 30px;
   }
 }
+
 @media (max-width: 380px) {
   .project:hover{
     
@@ -507,13 +511,15 @@ footer {
   }
   .project__description--para {
     display: none;
+    font-size: 20px;
   }
   .project__description--links {
     display: flex;
     justify-content: center;
+    font-size: 12px;
   }
   .project__description--title {
-    font-size: 32px;
+    font-size: 12px;
     line-height: 1;
     text-align: center;
   }
