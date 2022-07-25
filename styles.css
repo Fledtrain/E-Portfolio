@@ -53,6 +53,10 @@ Header Page
 .dark-theme * {
   color: white;
 }
+.dark-theme .nav__link--ancor{
+color: white;
+
+}
 
 h1,
 h2,
@@ -124,7 +128,7 @@ li {
 }
 
 .text--color {
-  color: #0d1a54;
+  color: #1c6d81;
 }
 section:nth-child(even) {
   background-color: grey;
