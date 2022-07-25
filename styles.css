@@ -259,6 +259,7 @@ End of Header Page & Nav Bar
 .about-me__img {
   width: 100%;
   animation: fade-in 1200ms 800ms backwards;
+  padding-top: 16px;
 }
 
 @keyframes fade-in {
@@ -294,6 +295,7 @@ Tech Stack
   display: flex;
   justify-content: center;
   position: relative;
+  padding-bottom: 16px;
 }
 .language__img {
   width: 100%;
@@ -469,6 +471,11 @@ footer {
   opacity: 1;
 }
 
+@media (max-width: 1700px){
+
+}
+
+
 /* Small Phones,tablets,large Smartphones */
 @media (max-width: 768px) {
   nav {
@@ -499,9 +506,15 @@ footer {
   }
 }
 
-@media (max-width: 380px) {
-  .project:hover {
+/* Nav doesnt show languages and projects on mobile */
+/* Makes it look cleaner */
+@media (max-width: 472px) {
+  .nav__link:not(:last-child) {
+    display: none;
   }
+}
+
+@media (max-width: 380px) {
   .nav__link:not(:last-child) {
     display: none;
   }
