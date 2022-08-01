@@ -476,8 +476,10 @@ footer {
   opacity: 1;
 }
 
+/* Ipad Screen */
 @media (max-width: 2396px) {
   .footer__logo--popper {
+    display: none;
     position: absolute;
     right: 0;
     top: 30px;
