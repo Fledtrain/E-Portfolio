@@ -415,6 +415,11 @@ Projects
   color: whitesmoke;
 }
 
+@media(hover: hover) and (pointer: fine) {
+  .project:hover {
+      background: white;
+  }
+}
 /*     Footer      */
 
 footer {
