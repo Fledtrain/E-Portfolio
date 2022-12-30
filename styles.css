@@ -507,7 +507,7 @@ footer {
     width: calc(100% / 2);
   }
   .project__description--para {
-    font-size: 12px;
+    font-size: 10.5px;
   }
   .project__description--links,
   .project__description--title {
