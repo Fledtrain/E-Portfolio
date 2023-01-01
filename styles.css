@@ -337,6 +337,10 @@ Tech Stack
   transform: scale(1);
   opacity: 1;
 }
+.background {
+  background-color: rgb(170, 170, 170);
+
+}
 
 /*
 
