@@ -411,6 +411,10 @@ Projects
   font-size: 20px;
   margin-right: 16px;
 }
+.project__description--features{
+  color: rgb(249, 97, 97);
+}
+
 .project__description--title,
 .project__description--sub-title,
 .project__description--para,
