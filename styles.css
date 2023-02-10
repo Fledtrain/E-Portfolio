@@ -264,7 +264,7 @@ End of Header Page & Nav Bar
 .about-me__img {
   width: 100%;
   animation: fade-in 1200ms 800ms backwards;
-  padding-top: 16px;
+  padding: 16px 16px 0 16px;
 }
 
 @keyframes fade-in {
@@ -284,7 +284,7 @@ End of Header Page & Nav Bar
     transform: rotate(0);
   }
   50% {
-    transform: rotate(30deg);
+    transform: rotate(35deg);
   }
   100% {
     transform: rotate(0);
