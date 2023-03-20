@@ -497,6 +497,13 @@ footer {
   }
 }
 
+@media(max-width:1290px){
+  .about-me__info--para{
+    font-size: 18px;
+    margin: 10px;
+  }
+}
+
 /* Small Phones,tablets,large Smartphones */
 @media (max-width: 760px) {
   nav {
@@ -508,7 +515,8 @@ footer {
   }
 
   .about-me__info--para {
-    font-size: 18px;
+    font-size: 16px;
+    padding: 6px;
   }
 
   .language {
