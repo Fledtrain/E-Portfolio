@@ -554,7 +554,6 @@ footer {
   }
   .project__description--para {
     display: none;
-    font-size: 20px;
   }
   .project__description--links {
     display: flex;
@@ -562,12 +561,16 @@ footer {
     font-size: 12px;
   }
   .project__description--title {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1;
     text-align: center;
+    padding: 10px;
   }
   .project__description--sub-title {
     text-align: center;
     margin: 12px 0;
+  }
+  .project__description--links{
+    padding: 10px;
   }
 }
