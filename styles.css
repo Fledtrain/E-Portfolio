@@ -502,6 +502,10 @@ footer {
     font-size: 18px;
     margin: 10px;
   }
+  .about-me__img{
+    width: 100%;
+    padding: 0 180px;
+  }
 }
 
 /* Small Phones,tablets,large Smartphones */
@@ -517,6 +521,10 @@ footer {
   .about-me__info--para {
     font-size: 16px;
     padding: 6px;
+  }
+  .about-me__img{
+    width: 100%;
+    padding: 0 30px;
   }
 
   .language {
