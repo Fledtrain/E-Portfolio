@@ -242,7 +242,7 @@ End of Header Page & Nav Bar
 }
 
 .about-me__link {
-  font-size: 20px;
+  font-size: 28px;
   color: black;
   padding: 0 16px;
 }
@@ -504,7 +504,7 @@ footer {
   }
   .about-me__img{
     width: 100%;
-    padding: 0 180px;
+    padding: 0 250px;
   }
 }
 
@@ -525,6 +525,9 @@ footer {
   .about-me__img{
     width: 100%;
     padding: 0 30px;
+  }
+  .about-me__link {
+    font-size: 24px;
   }
 
   .language {
@@ -554,6 +557,9 @@ footer {
 @media (max-width: 380px) {
   .nav__link:not(:last-child) {
     display: none;
+  }
+  .about-me__link {
+    font-size: 20px;
   }
   .project__description {
     padding: 0;
