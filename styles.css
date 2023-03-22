@@ -17,7 +17,7 @@ Header Page
   border: none;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  color: black;
+  color: #191919;
   background-color: #5030b1;
   text-align: center;
   transition: all 0.5s ease;
@@ -48,13 +48,16 @@ Header Page
   transition: all 400ms ease;
 }
 .dark-theme {
-  background-color: black;
+  background-color: #191919;
 }
 .dark-theme * {
-  color: white;
+  color: whitesmoke;
 }
 .dark-theme .nav__link--ancor {
-  color: white;
+  color: whitesmoke;
+}
+#dark-button {
+  color: whitesmoke;
 }
 
 h1,
