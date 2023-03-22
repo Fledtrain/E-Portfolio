@@ -45,7 +45,7 @@ Header Page
   box-sizing: border-box;
 }
 * {
-  transition: all 300ms ease;
+  transition: all 400ms ease;
 }
 .dark-theme {
   background-color: black;
@@ -254,6 +254,12 @@ End of Header Page & Nav Bar
     transform: translateY(0);
   }
 }
+
+.fa-envelope,
+.fa-file-pdf {
+  cursor: not-allowed;
+}
+
 .about-me__img--container {
   flex: 1;
   display: flex;
@@ -491,6 +497,9 @@ footer {
 @media (max-width: 2000px) {
   .footer__logo--popper {
     display: none;
+  }
+  .about-me__img {
+    padding: 0 350px;
   }
 }
 
