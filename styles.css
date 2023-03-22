@@ -53,9 +53,8 @@ Header Page
 .dark-theme * {
   color: white;
 }
-.dark-theme .nav__link--ancor{
-color: white;
-
+.dark-theme .nav__link--ancor {
+  color: white;
 }
 
 h1,
@@ -188,7 +187,6 @@ End of Header Page & Nav Bar
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
 }
 .about-me__info {
   display: flex;
@@ -339,7 +337,6 @@ Tech Stack
 }
 .background {
   background-color: rgb(170, 170, 170);
-
 }
 
 /*
@@ -411,7 +408,7 @@ Projects
   font-size: 20px;
   margin-right: 16px;
 }
-.project__description--features{
+.project__description--features {
   color: rgb(249, 97, 97);
 }
 
@@ -423,9 +420,9 @@ Projects
   color: whitesmoke;
 }
 
-@media(hover: hover) and (pointer: fine) {
+@media (hover: hover) and (pointer: fine) {
   .project:hover {
-      background: white;
+    background: white;
   }
 }
 
@@ -497,12 +494,12 @@ footer {
   }
 }
 
-@media(max-width:1290px){
-  .about-me__info--para{
+@media (max-width: 1290px) {
+  .about-me__info--para {
     font-size: 18px;
     margin: 10px;
   }
-  .about-me__img{
+  .about-me__img {
     width: 100%;
     padding: 0 250px;
   }
@@ -522,7 +519,7 @@ footer {
     font-size: 16px;
     padding: 6px;
   }
-  .about-me__img{
+  .about-me__img {
     width: 100%;
     padding: 0 30px;
   }
@@ -584,7 +581,7 @@ footer {
     text-align: center;
     margin: 12px 0;
   }
-  .project__description--links{
+  .project__description--links {
     padding: 10px;
   }
 }
