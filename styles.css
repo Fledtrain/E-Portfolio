@@ -51,13 +51,13 @@ Header Page
   background-color: #191919;
 }
 .dark-theme * {
-  color: whitesmoke;
+  color: #FAF9F6;
 }
 .dark-theme .nav__link--ancor {
-  color: whitesmoke;
+  color: #FAF9F6;
 }
 #dark-button {
-  color: whitesmoke;
+  color: #FAF9F6;
 }
 
 h1,
@@ -103,7 +103,7 @@ i:hover {
   left: 0;
 }
 .link__hover-effect--white::after {
-  background-color: white;
+  background-color: #FAF9F6;
 }
 .link__hover-effect--black::after {
   background-color: black;
@@ -166,7 +166,7 @@ nav {
   background-color: #5030b1;
   padding: 8px 20px;
   border-radius: 50px;
-  color: white;
+  color: #FAF9F6;
   transition: all 300ms ease;
 }
 .nav__link--ancor-primary:hover {
@@ -426,7 +426,7 @@ Projects
 .project__description--para,
 .project__description--link {
   text-align: left;
-  color: whitesmoke;
+  color: #FAF9F6;
 }
 
 @media (hover: hover) and (pointer: fine) {
