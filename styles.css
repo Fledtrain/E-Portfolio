@@ -497,7 +497,7 @@ footer {
 }
 
 /* Ipad Screen */
-@media (max-width: 2000px) {
+@media (max-width: 2048px) {
   .footer__logo--popper {
     display: none;
   }
