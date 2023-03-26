@@ -438,6 +438,7 @@ Projects
 /*     Footer      */
 footer {
   background-color: #242424;
+  padding-top: 6px;
 }
 .footer__logo {
   display: flex;
