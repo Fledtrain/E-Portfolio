@@ -3,7 +3,3 @@ const toggleDarkMode = () => {
 };
 // This snippet will enable hover effects for touchscreens
 document.addEventListener("touchstart", function () {}, true); //Dont remove this line
-
-
-// Local Storage
-//Save the dark mode selection to local storage
